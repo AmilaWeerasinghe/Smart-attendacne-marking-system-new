@@ -9,25 +9,25 @@
 
 	<div class="header">
 	<h1>Smart Attendance Marking System</h1>
-		<h2>Login</h2>
+		<h2>Admin Login Menu</h2>
 	</div>
 	<form method="post" action="login.php" hright="50px">
 
 		<?php echo display_error(); ?>
 
 		<div class="input-group">
-			<label>Username</label>
+			<label>Admin Username</label>
 			<input type="text" name="username" >
 		</div>
 		<div class="input-group">
-			<label>Password</label>
+			<label>Admin Password</label>
 			<input type="password" name="password">
 		</div>
 		<div class="input-group">
-			<button type="submit" class="btn" name="login_btn">Login</button>
+			<button type="submit" class="btn" name="login_btn_admin">Admin Login</button>
 		</div>
 		<p>
-			Not yet a member? Contact an Admin 
+			Strictly available for SAMS Admins. 
 		</p>
 	</form>
 </body>
